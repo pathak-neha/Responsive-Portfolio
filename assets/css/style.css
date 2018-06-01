@@ -1,4 +1,4 @@
-/* header styling */ 
+/* ----------------------- header styling ---------------------- */ 
 .Site-header {
     position: fixed;
     top: 0;
@@ -39,7 +39,7 @@
     color: #777777
 }
 
-/* main content styling*/
+/* -------------------- main content styling -------------------- */
 
 html, body {
     height: 100%;
@@ -48,6 +48,22 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-image: url("./assets/images/what-the-hex.PNG");
+}
+
+.body-content {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    flex: 1 0 auto;
+}
+
+.main-content {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    width: 900px;
+    padding: 30px;
 }
 
 .heading {
@@ -86,21 +102,6 @@ a:hover {
     text-decoration: underline;
 }
 
-body {
-    background-image: url("./assets/images/what-the-hex.PNG");
-}
-
-.main-content {
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    margin: 0 auto;
-    margin-top: 90px;
-    margin-bottom: 36px;
-    width: 900px;
-    padding: 30px;
-    flex: 1 0 auto;
-}
-
 p {
     color: #777777;
     background-color: #ffffff;
@@ -115,21 +116,17 @@ form {
     line-height: 24px;
 }
 
-/* ---------------- portfolio page styling ------------------- */
-/* -------------------- rows --------------------------------- */
+/* ------------------ portfolio page styling ------------------- */
+/* --------------------------- rows ---------------------------- */
 .row1{
     position: relative;
-    float: left;
     width: 900px;
     height: 150px;
-    overflow: hidden;
-    background-color: #ffffff;
 }
 
 .row2{
     position: relative;
     margin-top: 20px;
-    float: left;
     width: 900px;
     height: 150px;
     overflow: hidden;
@@ -138,15 +135,14 @@ form {
 
 .row3{
     position: relative;
-    margin-top: 20px;
-    float: left;  
+    margin-top: 20px; 
     width: 900px;
     height: 150px; 
     overflow: hidden;
     background-color: #ffffff;
 }
 
-/* -------------------- content --------------------------------- */
+/* ------------------------ content ----------------------------- */
 .img1{
     width: 200px;
     height: 150px;  
@@ -258,3 +254,131 @@ form {
 }
 
 
+/* ----------------------- MEDIA QUERIES ----------------------- */
+@media screen and (max-width:980px) {
+    /* ----------------------- header -------------------------- */
+    .Site-header {
+        width: 100%;
+        height: 70px;
+    }
+
+    .container {
+        margin-left: 0;
+    }
+
+    #main-logo {
+        width: 30%;
+    }
+
+    #nav-bar {
+        width: 70%;
+        text-align: right;
+    }
+
+    /* ------------------------ body -------------------------- */ 
+    .body-content {
+        width: 100%;
+        flex: 1 0 auto;
+    }
+    
+    .main-content {
+        display: block;
+        float: left;
+        width: 65%;
+    }
+
+    /* ------------------------ footer -------------------------- */
+    footer {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    /* ----------------------- header -------------------------- */
+    .Site-header {
+        width: 100%;
+        height: 70px;
+    }
+
+    .container {
+        margin-left: 0;
+    }
+
+    #main-logo {
+        width: 30%;
+    }
+
+    #nav-bar {
+        width: 70%;
+        text-align: right;
+    }
+
+    /* ------------------------ body -------------------------- */ 
+    .body-content {
+        width: 100%;
+        flex: 1 0 auto;
+    }
+    
+    .main-content {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    /* ------------------------ footer -------------------------- */
+    footer {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:640px) {
+    /* ----------------------- header -------------------------- */
+    .Site-header {
+        width: 100%;
+        height: 100px;
+    }
+
+    .container {
+        margin-left: 0;
+    }
+
+    #main-logo {
+        width: 100%;
+        height: 40px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    #nav-bar {
+        width: 100%;
+        text-align: center;
+        height: 40px;
+        padding-top: 12px;
+        padding-bottom: 5px;
+    }
+
+    /* ------------------------ body -------------------------- */ 
+    .body-content {
+        margin-top: 120px;
+        width: 100%;
+        flex: 1 0 auto;
+    }
+    
+    .main-content {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    /* ------------------------ footer -------------------------- */
+    footer {
+        width: 100%;
+    }
+
+}
