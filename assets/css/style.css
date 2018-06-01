@@ -1,0 +1,260 @@
+/* header styling */ 
+.Site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-bottom: solid #cccccc 2px;
+    height: 70px;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    height: 70px;
+}
+
+#main-logo {
+    float: left;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-align: middle;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 20%;
+    height: 47px;
+    padding-top: 23px;
+}
+
+#nav-bar {
+    float: left;
+    width: 80%;
+    padding-top: 26px;
+    text-align: right;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777777
+}
+
+/* main content styling*/
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    color: #4aaaa5;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #dddddd;
+}
+
+.headshot {
+    float: left;
+    width: 200px;
+    display: block;
+    clear: both;
+    margin-right: 20px;
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eda007;
+    text-decoration: underline;
+}
+
+body {
+    background-image: url("./assets/images/what-the-hex.PNG");
+}
+
+.main-content {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 36px;
+    width: 900px;
+    padding: 30px;
+    flex: 1 0 auto;
+}
+
+p {
+    color: #777777;
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+form {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777777;
+    line-height: 24px;
+}
+
+/* ---------------- portfolio page styling ------------------- */
+/* -------------------- rows --------------------------------- */
+.row1{
+    position: relative;
+    float: left;
+    width: 900px;
+    height: 150px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.row2{
+    position: relative;
+    margin-top: 20px;
+    float: left;
+    width: 900px;
+    height: 150px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.row3{
+    position: relative;
+    margin-top: 20px;
+    float: left;  
+    width: 900px;
+    height: 150px; 
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+/* -------------------- content --------------------------------- */
+.img1{
+    width: 200px;
+    height: 150px;  
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.textbox1{
+    width: 200px;
+    height: 25px;
+    padding-top:5px;
+    position: absolute;
+    bottom: 15%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+}
+
+.img2{
+    width: 200px;
+    height: 150px;  
+    position: absolute;
+    left: 25.71%;
+}
+
+.textbox2{
+    width: 200px;
+    height: 25px;
+    padding-top:5px;
+    position: absolute;
+    bottom: 15%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    left: 25.71%;
+}
+
+.img3{
+    width: 200px;
+    height: 150px;  
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.textbox3{
+    width: 200px;
+    height: 25px;
+    padding-top:5px;
+    position: absolute;
+    bottom: 15%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+}
+
+.img4{
+    width: 200px;
+    height: 150px;  
+    position: absolute;
+    left: 25.71%;
+}
+
+.textbox4{
+    width: 200px;
+    height: 25px;
+    padding-top:5px;
+    position: absolute;
+    bottom: 15%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    left:25.71%;
+}
+
+.img5{
+    width: 200px;
+    height: 150px;  
+    position: absolute;
+}
+
+.textbox5{
+    width: 200px;
+    height: 25px;
+    padding-top:5px;
+    position: absolute;
+    bottom: 15%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+}
+
+/* footer styling */
+
+.Site-footer {
+    height: 15px;
+    width: 100%;
+    color: #cccccc;
+    font-family: 'Helvetiva Neue', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #666666;
+    border-top: solid #4aaaa5 6px;
+    text-align: center;
+    clear: both;
+    padding-top: 20px;
+    flex-shrink: 0;
+    min-width: 960px;
+}
+
+
